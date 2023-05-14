@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4920192061058865167}
   - component: {fileID: 4920192061058865166}
   - component: {fileID: 4920192061058865169}
-  m_Layer: 0
+  - component: {fileID: 3390420646474566365}
+  m_Layer: 6
   m_Name: RoadTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,8 +93,23 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4920192061058865171}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.81, y: 6.57, z: 0.81}
-  m_Center: {x: 0, y: 4.03, z: 0}
+  m_Size: {x: 0.81, y: 11.18, z: 0.81}
+  m_Center: {x: 0, y: 3.9, z: 0}
+--- !u!114 &3390420646474566365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4920192061058865171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e30206ef9d497f989e437f77034cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 4920192061058865166}
+  position: {x: 0, y: 0, z: 0}
+  isPainted: 0
