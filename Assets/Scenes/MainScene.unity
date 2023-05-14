@@ -332,8 +332,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.83921576, g: 0.90196085, b: 0.92549026, a: 1}
-  m_Intensity: 1.3
+  m_Color: {r: 0.85882354, g: 1, b: 1, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -407,6 +407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 765289308}
+  - component: {fileID: 765289309}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -432,6 +433,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &765289309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765289307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b75fc972a4f5a94d98e54808cbbccaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelTexture: {fileID: 2800000, guid: 59e99925dcfaa954cb60277d3a8644d9, type: 3}
+  prefabWallTile: {fileID: 3009570218511599532, guid: 73f6e73adef393745ae30e7291153721, type: 3}
+  prefabRoadTile: {fileID: 4920192061058865171, guid: 70e0d48f7d0263140b8b2ac07fd119a8, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
